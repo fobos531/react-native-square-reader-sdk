@@ -20,7 +20,7 @@ limitations under the License.
 #import <React/RCTBridgeModule.h>
 #endif
 
-@import SquareReaderSDK;
+#import <SquareReaderSDK/SquareReaderSDK-umbrella.h>
 
 
 @interface RNReaderSDKReaderSettings : NSObject <RCTBridgeModule, SQRDReaderSettingsControllerDelegate>

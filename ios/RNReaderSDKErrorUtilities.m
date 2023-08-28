@@ -15,7 +15,7 @@
  */
 
 #import "RNReaderSDKErrorUtilities.h"
-@import SquareReaderSDK;
+#import <SquareReaderSDK/SquareReaderSDK-umbrella.h>
 
 // Usage error
 NSString *const RNReaderSDKUsageError = @"USAGE_ERROR";
